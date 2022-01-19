@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Jan 19 19:44:39 2022
+# Process ID: 7164
+# Current directory: C:/Users/mulus/UART_TX
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12184 C:\Users\mulus\UART_TX\UART_TX.xpr
+# Log file: C:/Users/mulus/UART_TX/vivado.log
+# Journal file: C:/Users/mulus/UART_TX\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mulus/UART_TX/UART_TX.xpr
+update_compile_order -fileset sources_1

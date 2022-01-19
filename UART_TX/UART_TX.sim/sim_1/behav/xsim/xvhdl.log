@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mulus/UART_TX/UART_TX.srcs/sources_1/new/UART_RX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_RX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mulus/UART_TX/UART_TX.srcs/sources_1/new/UART_TX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_TX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mulus/UART_TX/UART_TX.srcs/sources_1/new/UART_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_tb'
