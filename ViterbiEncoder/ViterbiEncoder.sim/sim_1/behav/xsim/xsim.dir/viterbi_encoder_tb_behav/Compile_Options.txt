@@ -1,0 +1,1 @@
+-wto "bcb6bc46b6014e889f6115231eff3244" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "viterbi_encoder_tb_behav" "xil_defaultlib.viterbi_encoder_tb" -log "elaborate.log" 

@@ -1,0 +1,119 @@
+/*
+
+Xilinx Vivado v2019.2.1 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2729669 on Thu Dec  5 04:49:17 MST 2019
+IP Build: 2729494 on Thu Dec  5 07:38:25 MST 2019
+
+Process ID (PID): 19060
+License: Customer
+
+Current time: 	Wed Jan 19 19:36:11 EET 2022
+Time zone: 	Eastern European Time (Asia/Istanbul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 47 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	mulus
+User home directory: C:/Users/mulus
+User working directory: C:/Users/mulus/ViterbiEncoder
+User country: 	TR
+User language: 	tr
+User locale: 	tr_TR
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2019.2
+RDI_DATADIR: D:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/mulus/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/mulus/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/mulus/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/mulus/ViterbiEncoder/vivado.log
+Vivado journal file location: 	C:/Users/mulus/ViterbiEncoder/vivado.jou
+Engine tmp dir: 	C:/Users/mulus/ViterbiEncoder/.Xil/Vivado-19060-LAPTOP-946MARK6
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 660 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\mulus\ViterbiEncoder\ViterbiEncoder.xpr. Version: Vivado v2019.2.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/mulus/ViterbiEncoder/ViterbiEncoder.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 50 MB. Current time: 1/19/22, 7:36:13 PM EET
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/mulus/ViterbiEncoder/ViterbiEncoder.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 65 MB (+65851kb) [00:00:17]
+// [Engine Memory]: 817 MB (+705255kb) [00:00:17]
+// [GUI Memory]: 78 MB (+9662kb) [00:00:18]
+// [GUI Memory]: 101 MB (+20545kb) [00:00:18]
+// [Engine Memory]: 869 MB (+11798kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  4174 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'. 
+// Project name: ViterbiEncoder; location: C:/Users/mulus/ViterbiEncoder; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 902.996 ; gain = 263.004 
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, viterbi_encoder_tb(stimulus_driver) (viterbi_encoder_tb.vhd)]", 1); // B (F, cr)
+// PAPropertyPanels.initPanels (ViterbiEncoder.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, viterbi_encoder_tb(stimulus_driver) (viterbi_encoder_tb.vhd), UnitUnderTest3 : ViterbiEncoder(RTL) (ViterbiEncoder.vhd)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, viterbi_encoder_tb(stimulus_driver) (viterbi_encoder_tb.vhd), UnitUnderTest3 : ViterbiEncoder(RTL) (ViterbiEncoder.vhd)]", 2, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, viterbi_encoder_tb(stimulus_driver) (viterbi_encoder_tb.vhd)]", 6, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, viterbi_encoder_tb(stimulus_driver) (viterbi_encoder_tb.vhd)]", 6, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, viterbi_encoder_tb(stimulus_driver) (viterbi_encoder_tb.vhd)]", 6, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// [GUI Memory]: 117 MB (+11023kb) [00:00:53]

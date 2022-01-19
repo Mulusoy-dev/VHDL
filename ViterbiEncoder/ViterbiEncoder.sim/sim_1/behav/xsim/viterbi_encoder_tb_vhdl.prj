@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ViterbiEncoder.srcs/sources_1/new/ViterbiEncoder.vhd" \
+"../../../../ViterbiEncoder.srcs/sources_1/new/viterbi_encoder_tb.vhd" \
+
+# Do not sort compile order
+nosort

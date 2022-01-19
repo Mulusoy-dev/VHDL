@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="viterbi_encoder_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="viterbi_encoder_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="265001fs"></ZoomEndTime>
+      <Cursor1Time time="295200fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="134"></NameColumnWidth>
+      <ValueColumnWidth column_width="77"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/viterbi_encoder_tb/s_input" type="logic">
+      <obj_property name="ElementShortName">s_input</obj_property>
+      <obj_property name="ObjectShortName">s_input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/viterbi_encoder_tb/s_output" type="array">
+      <obj_property name="ElementShortName">s_output[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_output[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/viterbi_encoder_tb/s_reset" type="logic">
+      <obj_property name="ElementShortName">s_reset</obj_property>
+      <obj_property name="ObjectShortName">s_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/viterbi_encoder_tb/s_clock" type="logic">
+      <obj_property name="ElementShortName">s_clock</obj_property>
+      <obj_property name="ObjectShortName">s_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/viterbi_encoder_tb/CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/viterbi_encoder_tb/TIME_MARGIN" type="other">
+      <obj_property name="ElementShortName">TIME_MARGIN</obj_property>
+      <obj_property name="ObjectShortName">TIME_MARGIN</obj_property>
+   </wvobject>
+</wave_config>
