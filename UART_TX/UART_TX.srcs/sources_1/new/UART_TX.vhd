@@ -19,11 +19,11 @@
 ----------------------------------------------------------------------------------
 
 
--- Verici 8 bitlik veriyi göndermek için uygun, baþlangýç ve durdurma bitleri var, eþlik biti yoktur.
--- Ýletim tamamlandýðýnda o_TX_Done biti '1' olacak
+-- Verici 8 bitlik veriyi göndermek icin uygun, baslangýc ve durdurma bitleri var, eslik biti yoktur.
+-- Iletim tamamlandiginda o_TX_Done biti '1' olacak
 
--- Generic ile g_CLKS_PER_BIT hesabý:
--- g_CLKS_PER_BIT = (i_Clk'nýn frekansý)/(UART'ýn frekansý)
+-- Generic ile g_CLKS_PER_BIT hesabi:
+-- g_CLKS_PER_BIT = (i_Clk'nin frekansi)/(UART'in frekansi)
 -- Example: 10 MHz saat, 115200 baud UART
 -- (10000000)/(115200) = 87
 --

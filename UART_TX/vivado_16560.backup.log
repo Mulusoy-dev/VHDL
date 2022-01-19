@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Jan 19 19:55:17 2022
+# Process ID: 16560
+# Current directory: C:/Users/mulus/UART_TX
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19364 C:\Users\mulus\UART_TX\UART_TX.xpr
+# Log file: C:/Users/mulus/UART_TX/vivado.log
+# Journal file: C:/Users/mulus/UART_TX\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mulus/UART_TX/UART_TX.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 907.859 ; gain = 258.594
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 19 19:56:02 2022...

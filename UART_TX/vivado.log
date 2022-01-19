@@ -2,21 +2,23 @@
 # Vivado v2019.2.1 (64-bit)
 # SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
 # IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
-# Start of session at: Wed Jan 19 19:55:17 2022
-# Process ID: 16560
-# Current directory: C:/Users/mulus/UART_TX
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19364 C:\Users\mulus\UART_TX\UART_TX.xpr
-# Log file: C:/Users/mulus/UART_TX/vivado.log
-# Journal file: C:/Users/mulus/UART_TX\vivado.jou
+# Start of session at: Wed Jan 19 19:58:09 2022
+# Process ID: 9844
+# Current directory: C:/Users/mulus/OneDrive/Masaüstü/VHDL/VHDL/VHDL/UART_TX
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14760 C:\Users\mulus\OneDrive\Masaüstü\VHDL\VHDL\VHDL\UART_TX\UART_TX.xpr
+# Log file: C:/Users/mulus/OneDrive/Masaüstü/VHDL/VHDL/VHDL/UART_TX/vivado.log
+# Journal file: C:/Users/mulus/OneDrive/Masaüstü/VHDL/VHDL/VHDL/UART_TX\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/mulus/UART_TX/UART_TX.xpr
+open_project C:/Users/mulus/OneDrive/Masaüstü/VHDL/VHDL/VHDL/UART_TX/UART_TX.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/mulus/UART_TX' since last save.
 Scanning sources...
 Finished scanning sources
+INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/Users/mulus/OneDrive/Masaüstü/VHDL/VHDL/VHDL/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store'; using path 'C:/Users/mulus/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store' instead.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
-open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 907.859 ; gain = 258.594
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 924.254 ; gain = 277.734
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed Jan 19 19:56:02 2022...
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 19 20:01:00 2022...
