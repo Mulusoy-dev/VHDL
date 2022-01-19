@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Jan 19 20:04:58 2022
+# Process ID: 5388
+# Current directory: C:/Users/mulus/spi_master
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12776 C:\Users\mulus\spi_master\spi_master.xpr
+# Log file: C:/Users/mulus/spi_master/vivado.log
+# Journal file: C:/Users/mulus/spi_master\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mulus/spi_master/spi_master.xpr
+update_compile_order -fileset sources_1

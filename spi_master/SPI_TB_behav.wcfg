@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SPI_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SPI_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="12410001fs"></ZoomEndTime>
+      <Cursor1Time time="4650000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/SPI_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/ss_n" type="logic">
+      <obj_property name="ElementShortName">ss_n</obj_property>
+      <obj_property name="ObjectShortName">ss_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/busy_slave" type="logic">
+      <obj_property name="ElementShortName">busy_slave</obj_property>
+      <obj_property name="ObjectShortName">busy_slave</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/busy_master" type="logic">
+      <obj_property name="ElementShortName">busy_master</obj_property>
+      <obj_property name="ObjectShortName">busy_master</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/rx_enable" type="logic">
+      <obj_property name="ElementShortName">rx_enable</obj_property>
+      <obj_property name="ObjectShortName">rx_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/rx_master" type="array">
+      <obj_property name="ElementShortName">rx_master[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_master[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/rx_slave" type="array">
+      <obj_property name="ElementShortName">rx_slave[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_slave[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/tx_master" type="array">
+      <obj_property name="ElementShortName">tx_master[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_master[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/tx_slave" type="array">
+      <obj_property name="ElementShortName">tx_slave[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_slave[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/cpha" type="logic">
+      <obj_property name="ElementShortName">cpha</obj_property>
+      <obj_property name="ObjectShortName">cpha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_TB/cpol" type="logic">
+      <obj_property name="ElementShortName">cpol</obj_property>
+      <obj_property name="ObjectShortName">cpol</obj_property>
+   </wvobject>
+</wave_config>

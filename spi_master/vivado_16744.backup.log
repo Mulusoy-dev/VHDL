@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Jan 19 20:03:09 2022
+# Process ID: 16744
+# Current directory: C:/Users/mulus/spi_master
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17748 C:\Users\mulus\spi_master\spi_master.xpr
+# Log file: C:/Users/mulus/spi_master/vivado.log
+# Journal file: C:/Users/mulus/spi_master\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mulus/spi_master/spi_master.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 920.059 ; gain = 283.516
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 19 20:04:01 2022...
